@@ -9,7 +9,8 @@
         }
     ],
     "require": {
-        "barcodebucket/barcodebucket-core": "@dev"
+        "barcodebucket/barcodebucket-core": "@dev",
+        "guzzle/guzzle": "~3.7"
     },
     "require-dev": {
         "phpunit/phpunit": "~3.7"
