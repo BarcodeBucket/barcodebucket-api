@@ -32,11 +32,11 @@ class GuzzleBarcodeLookup implements BarcodeLookupInterface
     {
         $data = $this
             ->client
-            ->get('/barcodes/'.$gtin)
+            ->get('/barcode/'.$gtin)
             ->send()
             ->json()
         ;
 
-        return new Barcode($data->uuid, $data->gtin);
+        return new Barcode($data['uuid'], $data['gtin']);
     }
 }
