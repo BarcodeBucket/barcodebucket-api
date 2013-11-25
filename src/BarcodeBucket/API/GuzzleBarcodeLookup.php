@@ -1,7 +1,6 @@
 <?php
 namespace BarcodeBucket\API;
 
-
 use BarcodeBucket\Model\Barcode;
 use Guzzle\Http\ClientInterface;
 
@@ -9,7 +8,8 @@ use Guzzle\Http\ClientInterface;
  * Class GuzzleBarcodeLookup
  * @package BarcodeBucket\API
  */
-class GuzzleBarcodeLookup implements BarcodeLookupInterface {
+class GuzzleBarcodeLookup implements BarcodeLookupInterface
+{
     /**
      * @var ClientInterface
      */
@@ -19,7 +19,8 @@ class GuzzleBarcodeLookup implements BarcodeLookupInterface {
      * Constructor
      * @param ClientInterface $client
      */
-    public function __construct(ClientInterface $client) {
+    public function __construct(ClientInterface $client)
+    {
         $this->client = $client;
     }
 
@@ -27,7 +28,7 @@ class GuzzleBarcodeLookup implements BarcodeLookupInterface {
      * @param $gtin
      * @return Barcode
      */
-    function lookup($gtin)
+    public function lookup($gtin)
     {
         $data = $this
             ->client

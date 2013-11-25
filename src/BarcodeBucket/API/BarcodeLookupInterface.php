@@ -4,10 +4,11 @@ namespace BarcodeBucket\API;
 
 use BarcodeBucket\Model\Barcode;
 
-interface BarcodeLookupInterface {
+interface BarcodeLookupInterface
+{
     /**
      * @param $gtin
      * @return Barcode
      */
-    function lookup($gtin);
+    public function lookup($gtin);
 }
