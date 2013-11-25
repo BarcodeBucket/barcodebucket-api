@@ -8,6 +8,11 @@
             "email": "davide.bellettini@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    },
     "require": {
         "barcodebucket/barcodebucket-core": "@dev",
         "guzzle/guzzle": "~3.7"

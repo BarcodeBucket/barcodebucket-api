@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "1b0cfdecf5541755c5ab83ab58873da1",
+    "hash": "1e59dbdf663648b5e57010c069a87ea2",
     "packages": [
         {
             "name": "barcodebucket/barcodebucket-core",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BarcodeBucket/barcodebucket-core.git",
-                "reference": "055055ef38d443a63930ef67de1a89d54d8f0786"
+                "reference": "301169a8795105ffea4ed3f40c94ec3762b89d6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BarcodeBucket/barcodebucket-core/zipball/055055ef38d443a63930ef67de1a89d54d8f0786",
-                "reference": "055055ef38d443a63930ef67de1a89d54d8f0786",
+                "url": "https://api.github.com/repos/BarcodeBucket/barcodebucket-core/zipball/301169a8795105ffea4ed3f40c94ec3762b89d6b",
+                "reference": "301169a8795105ffea4ed3f40c94ec3762b89d6b",
                 "shasum": ""
             },
             "require-dev": {
@@ -39,7 +39,7 @@
                 }
             ],
             "description": "BarcodeBucket core classes",
-            "time": "2013-11-25 12:35:38"
+            "time": "2013-11-25 12:43:08"
         },
         {
             "name": "guzzle/guzzle",
