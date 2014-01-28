@@ -1,12 +1,12 @@
 <?php
-namespace BarcodeBucket\API;
+namespace Barcodebucket\API;
 
-use BarcodeBucket\Model\Barcode;
+use Barcodebucket\Model\Barcode;
 use Guzzle\Http\ClientInterface;
 
 /**
  * Class GuzzleBarcodeLookup
- * @package BarcodeBucket\API
+ * @package Barcodebucket\API
  */
 class GuzzleBarcodeLookup implements BarcodeLookupInterface
 {

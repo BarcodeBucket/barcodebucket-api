@@ -1,8 +1,8 @@
 <?php
 
-namespace BarcodeBucket\API;
+namespace Barcodebucket\API;
 
-use BarcodeBucket\Model\Barcode;
+use Barcodebucket\Model\Barcode;
 
 interface BarcodeLookupInterface
 {

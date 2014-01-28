@@ -12,4 +12,4 @@ EOT
     );
 }
 
-$loader->add('BarcodeBucket\Tests', __DIR__);
+$loader->add('Barcodebucket\\API\\Tests', __DIR__);
